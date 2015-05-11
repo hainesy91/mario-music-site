@@ -32,9 +32,11 @@ $("#Starpower").on("click", function(){
 
 $("#M64").on("click", function(){
   var mySound4 = soundManager.createSound({
+    id: 'm64',
   url: 'mario_sounds/m64.mp3'
   })
   mySound4.play();
+
 })
 
 $("#1up").on("click", function(){
